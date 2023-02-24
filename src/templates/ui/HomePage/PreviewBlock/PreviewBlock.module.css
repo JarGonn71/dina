@@ -1,0 +1,79 @@
+.Wrapper{
+  background: linear-gradient(178.93deg, #FFFFFF 0.92%, #0597F2 418.89%);
+  @apply h-preview-block max-h-screen flex justify-center items-center relative;
+}
+
+.Container{
+  @apply  px-[30px] py-[15px];
+  /*border: 5px solid transparent;*/
+  /*border-image: linear-gradient(to right, #2a2dce, #0597F2);*/
+  /*-moz-border-image: -moz-linear-gradient(left, #2a2dce , #0597F2);*/
+  /*-webkit-border-image: -webkit-linear-gradient(left, #2a2dce , #0597F2);*/
+  /*border-image-slice: 1;*/
+}
+
+.subBlock3{
+  @apply bottom-[50%] absolute right-4;
+  animation: 4s moveSubBlock infinite ease-in-out;
+}
+
+.subBlock4-1{
+  @apply right-[360px] bottom-[30%] absolute;
+  animation: 2s moveSubBlock infinite ease-in-out;
+}
+.subBlock4-2{
+  @apply right-[380px] bottom-[34%] absolute;
+  animation: 2s moveSubBlock2 infinite ease-in-out;
+}
+
+.subBlock7{
+  @apply left-[185px] bottom-[37%] absolute;
+  animation: 3s moveSubBlock infinite ease-in-out;
+}
+
+.subBlock8-1{
+  @apply left-[65px] bottom-[17%] absolute;
+  animation: 1.5s moveSubBlock infinite ease-in-out;
+}
+
+.subBlock8-2{
+  @apply left-[85px] bottom-[20%] absolute;
+  animation: 1.5s moveSubBlock2 infinite ease-in-out;
+}
+
+.block5{
+  @apply right-[50%] absolute bottom-0;
+}
+.block6{
+  @apply absolute bottom-0;
+  right: calc(50% - 120px);
+}
+.subBlock6{
+  @apply bottom-[20%] absolute;
+  right: calc(50% - 110px);
+  animation: 1s moveSubBlock infinite ease-in-out;
+}
+
+@keyframes moveSubBlock {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-20px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+@keyframes moveSubBlock2 {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-50px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}

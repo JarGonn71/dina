@@ -1,0 +1,7 @@
+.Header{
+    @apply flex justify-center items-center bg-transparent w-full fixed top-0 z-[100];
+}
+
+.Header.StickyHeader{
+    background: rgba(198, 230, 250, 0.71);
+}

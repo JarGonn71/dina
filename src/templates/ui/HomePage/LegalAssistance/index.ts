@@ -1,0 +1,1 @@
+export { LegalAssistance } from "./LegalAssistance";

@@ -1,0 +1,11 @@
+.Wrapper{
+    @apply flex justify-center w-full bg-white rounded-3xl;
+    transform: translateY(-30px);
+}
+
+.Container{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,380px));
+    gap: 15px;
+}

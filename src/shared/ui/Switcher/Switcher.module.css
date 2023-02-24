@@ -1,0 +1,7 @@
+.Switcher{
+    @apply left-[1px] absolute w-4 h-4 bg-white rounded-full;
+    transition: transform .2s ease-in-out;
+}
+.Switcher.active{
+    transform: translateX(21px);
+}
