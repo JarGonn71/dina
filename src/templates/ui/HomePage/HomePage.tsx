@@ -1,6 +1,7 @@
 import { PreviewBlock } from "./PreviewBlock";
 import { LegalAssistance } from "./LegalAssistance";
 import { Advantages } from "./Advantages";
+import { Feedback } from "./Feedback";
 
 export const HomePage = () => {
   return (
@@ -8,6 +9,7 @@ export const HomePage = () => {
       <PreviewBlock/>
       <LegalAssistance/>
       <Advantages/>
+      <Feedback/>
     </div>
   );
 };

@@ -1,1 +1,1 @@
-export { Switcher } from "./ui";
+export { Switcher, Input } from "./ui";

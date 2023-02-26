@@ -9,7 +9,8 @@ module.exports = {
         "preview-block": "880px",
       },
       colors: {
-        "main": "#0597F2"
+        "main": "#0597F2",
+        "primary": "#0597F2",
       },
       backgroundColor: {
         "main": "#0597F2",
