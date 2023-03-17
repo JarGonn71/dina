@@ -1,5 +1,5 @@
 .Header{
-    @apply flex justify-center items-center bg-transparent w-full fixed top-0 z-[100];
+    @apply  z-[1000] flex justify-center items-center bg-transparent w-full fixed top-0;
 }
 
 .Header.StickyHeader{

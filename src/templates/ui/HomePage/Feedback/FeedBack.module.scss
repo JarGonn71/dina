@@ -1,0 +1,31 @@
+.Image {
+  animation: moveImage 2s infinite ease-in-out alternate;
+}
+
+@keyframes moveImage {
+  to{
+    transform: rotate(-15deg);
+  }
+}
+
+.Container {
+  padding: 50px 0;
+  background: linear-gradient(149deg, rgba(24,187,156,1) 0%, rgba(106,57,175,1) 42%, rgba(187,24,148,1) 72%, rgba(115,53,134,1) 100%);
+  animation: gradient 10s infinite linear;
+  background-size: 400%;
+  transform: translateY(-50px);
+  border-radius: 0 0 1.5rem 1.5rem;
+  @apply shadow-2xl;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 80% 0%;
+  }
+  50% {
+    background-position: 20% 100%;
+  }
+  100% {
+    background-position: 80% 0%;
+  }
+}

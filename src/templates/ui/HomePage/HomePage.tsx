@@ -8,8 +8,8 @@ export const HomePage = () => {
     <div className="w-full">
       <PreviewBlock/>
       <LegalAssistance/>
-      <Advantages/>
       <Feedback/>
+      <Advantages/>
     </div>
   );
 };

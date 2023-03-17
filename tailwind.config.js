@@ -16,6 +16,9 @@ module.exports = {
         "main": "#0597F2",
         "block": "#161D27"
       },
+      backgroundImage: {
+
+      }
     },
   },
   plugins: [],
